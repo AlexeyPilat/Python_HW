@@ -16,3 +16,16 @@ elif a == 4:
     print('В четвертой четверти - x > 0 y < 0')
 else:
     print('Такой четверти нет :(')
+
+# Вариант решения №2
+# match quarter:           (проверка состояния переменной - quarter)
+# case "1":
+# print("x > 0, y > 0")
+# case "2":
+# print("x < 0, y > 0")
+# case "3":
+# print("x < 0, y < 0")
+# case "4":
+# print("x > 0, y < 0")
+# case _:
+# print("error")    

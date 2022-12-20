@@ -14,3 +14,5 @@ while (n > 0):
     tot = tot + dig
     n = n//10
 print("Сумма цифр равна:", tot)
+
+# print(sum(map(int, list(input("Введите дробное число: ").replace(".", "")))))        решение водну строку
